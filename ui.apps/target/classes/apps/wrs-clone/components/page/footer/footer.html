@@ -1,5 +1,19 @@
-.<footer class="footer d-flex flex-row align-items-center" data-sly-use.footer="footer.js">
-    <div style="padding-left: 16px;">
-        <span class="text-muted">${ footer.message @ context='html' }</span>
-    </div>
+<footer class="footer bg-light d-flex flex-row align-items-center" data-sly-use.footer="footer.js">
+  <div class="row footer-row m-0 text-center">
+    <div class="col"><i class="fa fa-home fa-lg" aria-hidden="true"></i></div>
+    <div class="col"><i class="fa fa-search fa-lg" aria-hidden="true"></i></div>
+    <div class="col"><i class="fa fa-plus-circle fa-lg" aria-hidden="true"></i></div>
+    <div class="col"><i class="fa fa-bookmark fa-lg" aria-hidden="true"></i></div>
+    <div class="col"><i class="fa fa-user fa-lg" aria-hidden="true"></i></div>
+  </div>
 </footer>
+<!-- TO DO: Move to clientlib -->
+<style>
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+  .footer-row {
+    width: 100%;
+  }
+</style>
