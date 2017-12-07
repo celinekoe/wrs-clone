@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>WRS Clone Content Package</comment>
+<entry key="createdBy">celinekoe</entry>
+<entry key="name">wrs-clone.ui.apps</entry>
+<entry key="created">2017-12-07T16:06:31.948+0800</entry>
+<entry key="groupId">com.celine</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">wrs-clone-packages</entry>
+<entry key="description">Maven Multimodule project for WRS Clone.</entry>
+<entry key="artifactId">wrs-clone.ui.apps</entry>
+<entry key="path">/etc/packages/wrs-clone-packages/wrs-clone.ui.apps.zip</entry>
+</properties>
