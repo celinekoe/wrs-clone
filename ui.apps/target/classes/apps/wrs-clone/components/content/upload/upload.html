@@ -1,6 +1,34 @@
 <div class="card mb-3">
   <div class="card-body">
     <h2 class="h4">Hello Celine Koe, would you like to upload a photo?</h2>
-    <button class="btn btn-primary d-block mx-auto">Upload a photo</button>
+    <button class="btn btn-primary d-block mx-auto" data-toggle="modal" data-target="#uploadPhotoModal">Upload a Photo</button>
+  </div>
+</div>
+<div id="uploadPhotoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="uploadPhotoModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="uploadPhotoModalLabel">Upload a Photo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="uploadPhotoForm">
+          <div class="form-group">
+            <label for="photoInput">Photo</label>
+            <input type="file" id="photoInput" class="form-control" name="photo">
+          </div>
+          <div class="form-group">
+            <label for="bodyInput">Body</label>
+            <textarea id="bodyInput" class="form-control" cols="30" rows="5" name="body"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <buttn class="btn btn-primary">Submit</buttn>
+      </div>
+    </div>
   </div>
 </div>
