@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1512633991202
+Bnd-LastModified: 1512695901672
 Build-Jdk: 1.8.0_151
 Built-By: celinekoe
 Bundle-Description: Maven Multimodule project for WRS Clone.

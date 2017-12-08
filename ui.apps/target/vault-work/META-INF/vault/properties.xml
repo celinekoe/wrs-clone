@@ -4,7 +4,7 @@
 <comment>WRS Clone Content Package</comment>
 <entry key="createdBy">celinekoe</entry>
 <entry key="name">wrs-clone.ui.apps</entry>
-<entry key="created">2017-12-07T16:06:31.948+0800</entry>
+<entry key="created">2017-12-08T09:18:22.617+0800</entry>
 <entry key="groupId">com.celine</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="requiresRoot">false</entry>
