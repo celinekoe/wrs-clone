@@ -1,9 +1,5 @@
 <div id="body" class="container pb-5">
-    <sly data-sly-resource="${ 'parsys' @ resourceType='wcm/foundation/components/parsys' }"></sly>
+    <sly data-sly-resource="${ 'upload' @ resourceType='wrs-clone/components/content/upload' }"/>
+    <sly data-sly-resource="${ 'cardlist' @ resourceType='wrs-clone/components/content/cardslist' }"/>
+    <sly data-sly-resource="${ 'parsys' @ resourceType='wcm/foundation/components/parsys' }"/>
 </div>
-<!-- TO DO: Move to clientlib -->
-<style>
-  #body {
-    margin-top: 61px;
-  }
-</style>

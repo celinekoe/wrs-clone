@@ -381,11 +381,11 @@
                         </dependency>
                     </dependencies>
                 </plugin>
-                <plugin>
+                <!-- <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>jslint-maven-plugin</artifactId>
                     <version>1.0.1</version>
-                </plugin>
+                </plugin> -->
 
             </plugins>
         </pluginManagement>

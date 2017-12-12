@@ -2,15 +2,17 @@
 <html>
 <head>
 	<title>${ properties.jcr:title }</title>
-    <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-data-sly-call="${clientLib.css @ categories='scrum-training-project.main'}">
+    <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+		<sly data-sly-call="${ clientlib.css @ categories='wrs-clone.main' }"/>
+		<sly data-sly-call="${ clientlib.css @ categories='wrs-clone.components' }"/>
     <meta charset="utf-8">
 </head>
 <body>
     <sly data-sly-resource="${'header' @ resourceType='wrs-clone/components/page/header'}"></sly>
 		<sly data-sly-include="body.html"></sly>
     <sly data-sly-resource="${'footer' @ resourceType='wrs-clone/components/page/footer'}"></sly>
-    <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
-data-sly-call="${clientLib.js @ categories='scrum-training-project.main'}">
+    <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"/>
+		<sly data-sly-call="${ clientlib.js @ categories='wrs-clone.main' }"/>
+		<sly data-sly-call="${ clientlib.js @ categories='wrs-clone.components' }"/>
 </body>
 </html>
